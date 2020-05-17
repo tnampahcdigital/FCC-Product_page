@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+#content-wrapper {
+  position: relative;
+}
+
+header {
+display: flex;
+position: fixed;
+margin-top: 10px;
+}
+
+#logo {
+  padding-left: 2em;
+  width: 50%;
+}
+
+#header-img {
+  width: 25%;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+#nav-bar > ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#form-section {
+  padding: 20px 0;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.input-email {
+  margin: 10px 0;
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 200px;
+  margin-top: 5px;
+}
+
+#features-section {
+  padding: 20px 0;
+
+}
+
+#features {
+  margin: 0 auto;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feat {
+  padding: 10px 0;
+}
+
+#explore {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#explore > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#price-boxes {
+  display: flex;
+  justify-content: space-between;
+  max-width: 65%;
+  margin: 50px auto 0 auto;
+}
+
+.pb {
+  width: 30%;
+  text-align: center;
+  padding: 40px 0;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.buy-now {
+  width: 70%;
+}
+
+/* Mobile Styles */
+
+@media (max-width: 600px) {
+  #price-boxes {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .pb {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
